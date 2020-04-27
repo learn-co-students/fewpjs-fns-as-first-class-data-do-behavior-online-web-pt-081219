@@ -7,7 +7,6 @@ function handleClick(e) {
 
 /* End Given Code, don't edit above here...*/
 /* 24 hr format
-
 /* Write your implementation of displayMessage() */
 function displayMessage(msg) {
   document.getElementById("greeting").innerText = msg;
@@ -27,3 +26,6 @@ function greet(timeStr) {
   if ( hour > 17) return "Good Evening"
   return "Good Afternoon"
 }
+
+
+
